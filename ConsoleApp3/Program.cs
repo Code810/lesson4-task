@@ -1,5 +1,7 @@
 ﻿
 
+
+
 #region task1_tek_ededlerin_sayi
 
 //Console.WriteLine("Reqemleri daxil edin");
@@ -25,31 +27,63 @@
 //    Console.WriteLine(count);
 
 #endregion
-#region sade_murekkeb_eded
-Console.WriteLine("Reqemi daxil edin:");
+
+#region task2_sade_murekkeb_eded
+//Console.WriteLine("Reqemi daxil edin:");
+//int n = int.Parse(Console.ReadLine());
+//int m = 2;
+//bool result = false;
+//while (m<n)
+//{
+//    if (n % m == 0)
+//    {
+//        result = true;
+//        m = n;
+//    }
+
+//    else
+//        m++;
+//}
+//if (result)
+//{
+//    Console.WriteLine("Murekkeb reqem");
+//}
+//else
+//{
+//    Console.WriteLine("Sade reqem");
+//}
+
+
+
+#endregion
+
+#region task3_2nin_quvveti
+Console.WriteLine("Reqemi daxil edin");
 int n = int.Parse(Console.ReadLine());
-int m = 2;
+int m = 1;
 bool result = false;
-while (m<n)
+
+while (m < n)
 {
-    if (n % m == 0)
-    {
-        result = true;
-        m = n;
-    }
-       
-    else
-        m++;
+    
+        if (m * 2 == n)
+        {
+            result = true;
+            m = n;
+        }
+        else
+        
+            m = m * 2;
 }
+
 if (result)
 {
-    Console.WriteLine("Murekkeb reqem");
+    Console.WriteLine("2-nin quvvetidir");
 }
 else
 {
-    Console.WriteLine("Sade reqem");
+    Console.WriteLine("2-nin quvveti deyil");
 }
-
 
 
 #endregion
