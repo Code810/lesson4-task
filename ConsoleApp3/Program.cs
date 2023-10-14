@@ -102,4 +102,28 @@
 //Console.WriteLine(" mertebelidir");
 #endregion
 
+#region task3 new
 
+Console.WriteLine("Reqemi daxil edin");
+int n = int.Parse(Console.ReadLine());
+int m = 2;
+bool result = false;
+{
+    while (n % m == 0)
+    {
+        if (n / m == 1)
+        {
+            result=true;
+            break;
+                  }
+        else
+            n = n / m;
+    }
+    if (result==true)
+
+    Console.WriteLine("quvvetidir");
+    else
+        Console.WriteLine("quvveti deyil");
+}
+
+#endregion
