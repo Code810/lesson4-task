@@ -1,9 +1,4 @@
 ﻿
-
-
-
-
-
 #region task1_tek_ededlerin_sayi
 
 //Console.WriteLine("Reqemleri daxil edin");
@@ -14,19 +9,19 @@
 //while (n > m)
 //{
 //    Console.WriteLine("Reqemleri duzgun daxil edin");
-//     n = int.Parse(Console.ReadLine());
-//     m = int.Parse(Console.ReadLine());
+//    n = int.Parse(Console.ReadLine());
+//    m = int.Parse(Console.ReadLine());
 //}
 
-//    for (int i = n; i <= m; i++)
+//for (int i = n; i <= m; i++)
+//{
+//    if (i % 2 == 1)
 //    {
-//        if (i % 2 == 1)
-//        {
-//            count += 1;
-//        }
+//        count += 1;
 //    }
-//    Console.Write("Tek ededlerin sayi: ");
-//    Console.WriteLine(count);
+//}
+//Console.Write("Tek ededlerin sayi: ");
+//Console.WriteLine(count);
 
 #endregion
 
@@ -35,7 +30,7 @@
 //int n = int.Parse(Console.ReadLine());
 //int m = 2;
 //bool result = false;
-//while (m<n)
+//while (m < n)
 //{
 //    if (n % m == 0)
 //    {
@@ -60,32 +55,32 @@
 #endregion
 
 #region task3_2nin_quvveti
-Console.WriteLine("Reqemi daxil edin");
-int n = int.Parse(Console.ReadLine());
-int m = 1;
-bool result = false;
+//Console.WriteLine("Reqemi daxil edin");
+//int n = int.Parse(Console.ReadLine());
+//int m = 1;
+//bool result = false;
 
-while (m < n)
-{
+//while (m < n)
+//{
 
-    if (m * 2 == n)
-    {
-        result = true;
-        m = n;
-    }
-    else
+//    if (m * 2 == n)
+//    {
+//        result = true;
+//        m = n;
+//    }
+//    else
 
-        m = m * 2;
-}
+//        m = m * 2;
+//}
 
-if (result == true)
-{
-    Console.WriteLine("2-nin quvvetidir");
-}
-else
-{
-    Console.WriteLine("2-nin quvveti deyil");
-}
+//if (result == true)
+//{
+//    Console.WriteLine("2-nin quvvetidir");
+//}
+//else
+//{
+//    Console.WriteLine("2-nin quvveti deyil");
+//}
 
 
 #endregion
