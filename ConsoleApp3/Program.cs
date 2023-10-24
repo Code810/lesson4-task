@@ -60,13 +60,17 @@
 //int m = 1;
 //bool result = false;
 
-//while (m < n)
+//while (m <= n)
 //{
-
-//    if (m * 2 == n)
+//    if (m == n)
 //    {
 //        result = true;
-//        m = n;
+//        break;
+//    }
+//    else if (m * 2 == n)
+//    {
+//        result = true;
+//        break;
 //    }
 //    else
 
