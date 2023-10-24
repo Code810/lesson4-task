@@ -109,13 +109,18 @@ int n = int.Parse(Console.ReadLine());
 int m = 2;
 bool result = false;
 {
-    while (n % m == 0)
+    while (n % m == 0||n==1)
     {
         if (n / m == 1)
         {
             result=true;
             break;
                   }
+        else if(n==1)
+{
+    result = true;
+    break;
+}
         else
             n = n / m;
     }
